@@ -1,7 +1,258 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  margin: 0;
+  background-color: #ffdead;
+  font: Georgia 100% sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  font-family: 'Rock Salt', sans-serif;
+  color: #8b0000;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  line-height: 3.5;
+}
+
+.left {
+  float: left;
+  width: 70px;
+}
+
+.right {
+  float: right;
+  width: 70px;
+}
+
+.products {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  border: 3px solid #000;
+  padding: 1em;
+  min-width: 200px;
+}
+
+.commsissions {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  border: 3px solid #000;
+  padding: 1em;
+  min-width: 200px;
+}
+
+.about {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  border: 3px solid #000;
+  padding: 1em;
+  min-width: 200px;
+}
+
+.reviews {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  border: 3px solid #000;
+  padding: 1em;
+  min-width: 200px;
+}
+
+.apply {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  border: 3px solid #000;
+  padding: 1em;
+  min-width: 200px;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+h2 {
+  font-family: 'Rock Salt', sans-serif;
+  color: #8b0000;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+ h1, p {
+  margin: 0 0 1.3rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+  h1, p {
+    margin: 0 0 1.3rem;
+  }
+
+  .products {
+    float: left;
+    width: 50%;
+    clear: both;
+  }
+
+  .commsissions {
+    float: right;
+    width: 50%;
+  }
+
+  .about {
+    float: left;
+    width: 50%;
+  }
+
+  .reviews {
+    float: right;
+    width: 50%;
+  }
+
+  .apply {
+    float: left;
+    width: 50%;
+  }
+
+  h2 {
+    clear: both;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  h1, p {
+    margin: 0 0 1.4rem;
+  }
+
+  .products {
+    float: left;
+    width: 33%;
+    clear: both;
+  }
+
+  .commsissions {
+    float: right;
+    width: 34%;
+  }
+
+  .about {
+    float: right;
+    width: 33%;
+  }
+
+  .reviews {
+    float: left;
+    width: 50%;
+  }
+
+  .apply {
+    float: right;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  .products {
+    float: left;
+    width: 20%;
+    clear: both;
+  }
+
+  .commsissions {
+    float: right;
+    width: 20%;
+  }
+
+  .about {
+    float: right;
+    width: 20%;
+  }
+
+  .reviews {
+    float: right;
+    width: 20%;
+  }
+
+  .apply {
+    float: right;
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .products {
+    float: left;
+    width: 20%;
+    clear: both;
+  }
+
+  .commsissions {
+    float: right;
+    width: 20%;
+  }
+
+  .about {
+    float: right;
+    width: 20%;
+  }
+
+  .reviews {
+    float: right;
+    width: 20%;
+  }
+
+  .apply {
+    float: right;
+    width: 20%;
+  }
 }
