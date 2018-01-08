@@ -54,7 +54,7 @@ ul {
   float: left;
 }
 
-.commissions {
+.com {
   text-decoration: none;
   color: #000;
   text-align: center;
@@ -127,7 +127,7 @@ h2 {
     clear: both;
   }
 
-  .commissions {
+  .com {
     float: right;
     width: 50%;
   }
@@ -169,7 +169,7 @@ h2 {
     clear: both;
   }
 
-  .commissions {
+  .com {
     float: right;
     width: 34%;
   }
@@ -208,7 +208,7 @@ h2 {
     clear: both;
   }
 
-  .commissions {
+  .com {
     float: left;
     width: 20%;
   }
@@ -241,7 +241,7 @@ h2 {
     clear: both;
   }
 
-  .commissions {
+  .com {
     float: left;
     width: 20%;
   }
