@@ -115,7 +115,7 @@ blockquote {
 }
 
 .browse-products {
-
+  display: inline-block;
 }
 
 @media only screen and (min-width: 25em) {
@@ -209,6 +209,60 @@ blockquote {
     text-align: left;
     margin: 10px;
   }
+
+  img-flex {
+    position: relative;
+  }
+
+  .header1 {
+    position: absolute;
+    bottom: 215px;
+    width: 55%;
+    right: 20px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .header2 {
+    position: relative;
+    bottom: -130px;
+    width: 55%;
+    left: 250px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .header3 {
+    position: relative;
+    bottom: -225px;
+    width: 55%;
+    left: 250px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .header4 {
+    position: relative;
+    bottom: -120px;
+    width: 55%;
+    left: 250px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .header5 {
+    position: relative;
+    bottom: -100px;
+    width: 55%;
+    left: 250px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    color: #fff;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -260,6 +314,62 @@ blockquote {
     border-bottom: 4px solid #333;
     text-align: left;
     margin: 10px;
+  }
+
+  .header1 {
+    position: absolute;
+    bottom: 215px;
+    width: 55%;
+    right: 20px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 2rem
+  }
+
+  .header2 {
+    position: relative;
+    bottom: -130px;
+    width: 55%;
+    left: 250px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .header3 {
+    position: relative;
+    bottom: -225px;
+    width: 55%;
+    left: 250px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .header4 {
+    position: relative;
+    bottom: -120px;
+    width: 55%;
+    left: 250px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .header5 {
+    position: relative;
+    bottom: -100px;
+    width: 55%;
+    left: 250px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -306,4 +416,5 @@ blockquote {
     border-bottom: 4px solid #333;
     text-align: left;
     margin: 10px;
+  }
 }
