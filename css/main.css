@@ -20,7 +20,7 @@ html {
 }
 
 h1 {
-  font-family: 'Rock Salt', sans-serif;
+  font-family: "Rock Salt", sans-serif;
   color: #8b0000;
   font-size: 1.3rem;
   text-align: center;
@@ -90,13 +90,13 @@ a:hover {
 }
 
 h2 {
-  font-family: 'Rock Salt', sans-serif;
+  font-family: "Rock Salt", sans-serif;
   color: #8b0000;
   font-size: 1.1rem;
   text-align: center;
 }
 
- h1, p {
+h1, p {
   margin: 0 0 1.3rem;
 }
 
@@ -127,7 +127,7 @@ blockquote {
 }
 
 small {
-  font-size: .5rem
+  font-size: .5rem;
 }
 
 footer p {
@@ -243,10 +243,6 @@ footer p {
     margin: 10px;
   }
 
-  img-flex {
-    position: relative;
-  }
-
   .header1 {
     position: absolute;
     bottom: 215px;
@@ -311,7 +307,7 @@ footer p {
   }
 
   p {
-  text-align: left;
+    text-align: left;
   }
 
   .products {
@@ -357,7 +353,7 @@ footer p {
     background-color: rgba(0, 0, 0, .3);
     border-radius: 8px;
     color: #fff;
-    font-size: 2rem
+    font-size: 2rem;
   }
 
   .header2 {
